@@ -17,16 +17,7 @@ function Table() {
             <th>Товары</th>
           </tr>
           
-          <tr>
-            <th>{this.props.dateReg}</th>
-            <th>{this.props.kioskName} </th>
-            <th>{this.props.chequeType}</th>
-            <th>{this.props.statusPay}</th>
-            <th>{this.props.pays}</th>
-            <th>{this.props.sum}</th>
-            <th>{this.props.quantity}</th>
-            <th>{this.props.positions}</th>
-          </tr>
+         
           
           
           
