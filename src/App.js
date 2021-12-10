@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import Table from './Table.js';
 import Form from './Form.js';
+import TableNew from './TableNew';
 
 export class App extends Component { 
   constructor(props){
@@ -62,6 +63,13 @@ export class App extends Component {
         </div>
         <div>
             <Form updateData={this.updateData} />
+        </div>
+
+        
+        <div>
+          New Table:
+          
+          <TableNew />
         </div>
         
       </div>
